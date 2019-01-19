@@ -1,2 +1,3 @@
 server:
-  port: 8777
+  port: 8776
+foo: bar_8776
