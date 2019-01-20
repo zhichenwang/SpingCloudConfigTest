@@ -1,12 +1,2 @@
 server:
-  port: 8777
-foo: foo_8777-x66
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-management:
-  security:
-    enabled: false
+  port: 8776
