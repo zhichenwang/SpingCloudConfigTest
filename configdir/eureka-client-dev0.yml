@@ -1,6 +1,6 @@
 server:
   port: 8776
-foo: bar_8776-aaa1
+foo: bar_8776-aaa2
 spring:
   rabbitmq:  # eureka-client通过rabbitmq接收通知触发刷新配置
     host: localhost
