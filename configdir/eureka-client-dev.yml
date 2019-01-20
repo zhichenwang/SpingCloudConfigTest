@@ -1,6 +1,6 @@
 server:
   port: 8777
-foo: foo_8777
+foo: foo_8777-xxx
 spring:
   rabbitmq:
     host: localhost
