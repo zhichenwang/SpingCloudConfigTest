@@ -7,3 +7,10 @@ spring:
     port: 5672
     username: guest
     password: guest
+management:
+  endpoints:
+    web:
+      exposure:  # 暴露bus-refresh节点（默认只暴露health和info）
+        include: '*'
+  security:
+    enabled: false  # 需关闭 spring security，否则禁止访问 bus-refresh
