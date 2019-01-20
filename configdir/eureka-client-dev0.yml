@@ -1,0 +1,9 @@
+server:
+  port: 8776
+foo: bar_8776
+spring:
+  rabbitmq:  # eureka-client通过rabbitmq接收通知触发刷新配置
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
